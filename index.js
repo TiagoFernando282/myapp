@@ -15,7 +15,8 @@ app.use(
 router.get('/', (req, res) => {
     const retorno = {
         nome: "Tiago Fernando",
-        email: "tiagofernando282@gmail.com"
+        email: "tiagofernando282@gmail.com",
+        senha : "123456"
     };
 
     res.send(JSON.stringify(retorno));
